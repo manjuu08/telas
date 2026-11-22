@@ -1,4 +1,4 @@
-# TELAS（Teikyo Education & Learning Access System）
+# TELAS（TEikyo Life & Academic Support）
 
 帝京大学 LMS（Blackboard Ultra）用的工具集：网站、油猴脚本、iOS App、Android App。
 这个仓库只放 **App 的安装包**（[Releases](https://github.com/manjuu08/telas-release/releases)）和说明，源代码不公开。
