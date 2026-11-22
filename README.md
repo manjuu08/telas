@@ -9,7 +9,7 @@
 | | 地址 / 下载 | 版本 |
 |---|---|---|
 | 网站 | <https://telas.manjuu.net> | — |
-| 油猴脚本 | <https://telas.manjuu.net/teikyo-bb.user.js> | 1.67 |
+| 油猴脚本 | <https://telas.manjuu.net/teikyo-bb.user.js> | 1.0 |
 | iOS App | [Releases](https://github.com/manjuu08/telas-release/releases/latest) 的 `TELAS-<版本>.ipa` | 1.0 |
 | Android App | [Releases](https://github.com/manjuu08/telas-release/releases/latest) 的 `TELAS-<版本>.apk` | 1.0 |
 
@@ -94,7 +94,7 @@
 
 | 日期 | 内容 |
 |---|---|
-| 2026-11-22 | 首次发布：iOS 1.0、Android 1.0；网站加入 /bus、/choyukan、/teachers；油猴脚本 1.67（去掉了 PC 预约、公交、Campus Square 和学校 SSO 的自动登录，这些功能在 App 和网站里） |
+| 2026-11-22 | 首次发布 1.0：iOS App、Android App、油猴脚本；网站 telas.manjuu.net（下载页、/bus、/choyukan、/teachers） |
 
 ---
 
@@ -103,6 +103,6 @@
 帝京大学 LMS（Blackboard Ultra）のためのツール群です。このリポジトリには **アプリのインストールファイル**（[Releases](https://github.com/manjuu08/telas-release/releases)）と説明だけを置いています（ソースコードは非公開）。非公式ツールで、帝京大学・Anthology（Blackboard）とは関係ありません。
 
 - **Web サイト** <https://telas.manjuu.net>：トップはダウンロードページ（.ipa・.apk・スクリプト）。右上のメニューから バス停混雑状況（`/bus`）・蔦友館 メニュー（`/choyukan`）・教員一覧（八王子、`/teachers`）。
-- **ユーザースクリプト**（1.67）：LMS の左メニューに 一括ダウンロード・問題演習・お知らせ・課題・自動ログイン設定 を追加。Tampermonkey / Violentmonkey（PC）、Safari の Userscripts（iPhone / iPad / Mac）。
+- **ユーザースクリプト**（1.0）：LMS の左メニューに 一括ダウンロード・問題演習・お知らせ・課題・自動ログイン設定 を追加。Tampermonkey / Violentmonkey（PC）、Safari の Userscripts（iPhone / iPad / Mac）。
 - **iOS アプリ**（1.0、iOS 16 以上）：ホーム（直近の予定・バス混雑・PC 予約・今日の授業）、時間割、LMS（教材・問題演習）、CampusSquare（成績・GPA・卒業要件・出席・科目検索）、お知らせ（お知らせ・課題・掲示板）。IPA は署名なしなので Sideloadly / AltStore などでサイドロードしてください。
 - **Android アプリ**（1.0、Android 8.0 以上）：iOS 版と同じ機能。APK を開いて「提供元不明のアプリ」を許可してインストール。新しい版は上書きインストールできます。
