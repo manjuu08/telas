@@ -1,7 +1,7 @@
 # TELAS（TEikyo Life & Academic Support）
 
 帝京大学 LMS（Blackboard Ultra）用的工具集：网站、油猴脚本、iOS App、Android App。
-这个仓库只放 **App 的安装包**（[Releases](https://github.com/manjuu08/telas-release/releases)）和说明，源代码不公开。
+这个仓库只放 **App 的安装包**（[Releases](https://github.com/manjuu08/telas/releases)）和说明，源代码不公开。
 
 > **非官方工具**，和帝京大学、Anthology（Blackboard）都没有关系。用的是学校网站自己调用的内部接口，学校那边改版后可能失效。请在遵守学校 IT 使用规定的前提下使用。
 > 脚本和 App 都只在你自己的设备上运行，用你自己的账号登录学校的网站，作者收不到任何数据。
@@ -10,8 +10,8 @@
 |---|---|---|
 | 网站 | <https://telas.manjuu.net> | — |
 | 油猴脚本 | <https://telas.manjuu.net/teikyo-bb.user.js> | 1.0 |
-| iOS App | [Releases](https://github.com/manjuu08/telas-release/releases/latest) 的 `TELAS-<版本>.ipa` | 1.1 |
-| Android App | [Releases](https://github.com/manjuu08/telas-release/releases/latest) 的 `TELAS-<版本>.apk` | 1.1 |
+| iOS App | [Releases](https://github.com/manjuu08/telas/releases/latest) 的 `TELAS-<版本>.ipa` | 1.1 |
+| Android App | [Releases](https://github.com/manjuu08/telas/releases/latest) 的 `TELAS-<版本>.apk` | 1.1 |
 
 [日本語](#日本語)
 
@@ -110,7 +110,7 @@
 
 ## 日本語
 
-帝京大学 LMS（Blackboard Ultra）のためのツール群です。このリポジトリには **アプリのインストールファイル**（[Releases](https://github.com/manjuu08/telas-release/releases)）と説明だけを置いています（ソースコードは非公開）。非公式ツールで、帝京大学・Anthology（Blackboard）とは関係ありません。
+帝京大学 LMS（Blackboard Ultra）のためのツール群です。このリポジトリには **アプリのインストールファイル**（[Releases](https://github.com/manjuu08/telas/releases)）と説明だけを置いています（ソースコードは非公開）。非公式ツールで、帝京大学・Anthology（Blackboard）とは関係ありません。
 
 - **Web サイト** <https://telas.manjuu.net>：トップはダウンロードページ（.ipa・.apk・スクリプト）。右上のメニューから バス停混雑状況（`/bus`）・蔦友館 メニュー（`/choyukan`）・教員一覧（八王子、`/teachers`）。
 - **ユーザースクリプト**（1.0）：LMS の左メニューに 一括ダウンロード・問題演習・お知らせ・課題・自動ログイン設定 を追加。Tampermonkey / Violentmonkey（PC）、Safari の Userscripts（iPhone / iPad / Mac）。
