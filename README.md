@@ -9,9 +9,9 @@
 | | 地址 / 下载 | 版本 |
 |---|---|---|
 | 网站 | <https://telas.manjuu.net> | — |
-| 油猴脚本 | <https://telas.manjuu.net/teikyo-bb.user.js> | 1.1 |
-| iOS App | [Releases](https://github.com/manjuu08/telas/releases/latest) 的 `TELAS-<版本>.ipa` | 1.1 |
-| Android App | [Releases](https://github.com/manjuu08/telas/releases/latest) 的 `TELAS-<版本>.apk` | 1.1 |
+| 油猴脚本 | <https://telas.manjuu.net/teikyo-bb.user.js>（本仓库和 Releases 里也有 `teikyo-bb.user.js`） | 1.0 |
+| iOS App | [Releases](https://github.com/manjuu08/telas/releases/latest) 的 `TELAS-<版本>.ipa` | 1.0 |
+| Android App | [Releases](https://github.com/manjuu08/telas/releases/latest) 的 `TELAS-<版本>.apk` | 1.0 |
 
 [日本語](#日本語)
 
@@ -90,6 +90,7 @@
 
 | 日期 | 内容 |
 |---|---|
+| 2026-11-26 | iOS App、Android App、油猴脚本的版本号统一改为 1.0（内容包含之前 1.1 的全部更新）。新增：问题演习支持数值题（Android）；My Way 不用再点「ログイン」，Android 在 App 内打开；iOS 滑动删除键为红色、深色模式图标改为黑底。油猴脚本也放进本仓库和 Releases。已装 1.1 脚本的不会自动降到 1.0，要重新打开安装地址安装 |
 | 2026-11-24 | App 1.1 更新（版本号不变）：主页工具 3×2、加 My Way；贷出履历带封面；时间割月显示加「最终更新」和刷新、左右滑动；Android 时间割更紧凑（一打开就看到 1〜5 限）、公告标签不换行、「未提出のみ」加大、PC 预约地图可以拖动 |
 | 2026-11-23 | 油猴脚本 1.1：只保留一括下载，课程卡片 ★ 旁边加下载按钮；問題演習、お知らせ・課題、自動ログイン删除（App 里仍有問題演習和公告・作业） |
 | 2026-11-23 | App 1.1：ホーム加「図書館」（蔵書検索、贷出 / 访问排行、馆藏和状态、贷出履历、电子图书馆链接） |
@@ -102,7 +103,7 @@
 帝京大学 LMS（Blackboard Ultra）のためのツール群です。このリポジトリには **アプリのインストールファイル**（[Releases](https://github.com/manjuu08/telas/releases)）と説明だけを置いています（ソースコードは非公開）。非公式ツールで、帝京大学・Anthology（Blackboard）とは関係ありません。
 
 - **Web サイト** <https://telas.manjuu.net>：トップはダウンロードページ（.ipa・.apk・スクリプト）。右上のメニューから バス停混雑状況（`/bus`）・蔦友館 メニュー（`/choyukan`）・教員一覧（八王子、`/teachers`）。
-- **ユーザースクリプト**（1.1）：LMS に一括ダウンロードを追加（左メニューと、各コースカードの ★ の隣のボタン）。Tampermonkey / Violentmonkey（PC）、Safari の Userscripts（iPhone / iPad / Mac）。
-- **iOS アプリ**（1.1、iOS 16 以上）：ホーム（直近の予定・バス混雑・PC 予約・蔦友館メニュー・教員一覧・図書館・My Way・今日の授業）、時間割、LMS（教材・問題演習）、CampusSquare（成績・GPA・卒業要件・出席・科目検索）、お知らせ（お知らせ・課題・掲示板）。IPA は署名なしなので Sideloadly / AltStore などでサイドロードしてください。
-- **図書館**（1.1〜）：OPAC の蔵書検索・貸出 / アクセスランキング（表紙つき）・所蔵と状態・貸出履歴（LMS と同じ学籍番号・パスワードでログイン、統合認証は使いません。押すとその本を表示）・電子図書館へのリンク。予約・延長は OPAC の Web ページで。
-- **Android アプリ**（1.1、Android 8.0 以上）：iOS 版と同じ機能。APK を開いて「提供元不明のアプリ」を許可してインストール。新しい版は上書きインストールできます。
+- **ユーザースクリプト**（1.0）：LMS に一括ダウンロードを追加（左メニューと、各コースカードの ★ の隣のボタン）。Tampermonkey / Violentmonkey（PC）、Safari の Userscripts（iPhone / iPad / Mac）。
+- **iOS アプリ**（1.0、iOS 16 以上）：ホーム（直近の予定・バス混雑・PC 予約・蔦友館メニュー・教員一覧・図書館・My Way・今日の授業）、時間割、LMS（教材・問題演習）、CampusSquare（成績・GPA・卒業要件・出席・科目検索）、お知らせ（お知らせ・課題・掲示板）。IPA は署名なしなので Sideloadly / AltStore などでサイドロードしてください。
+- **図書館**：OPAC の蔵書検索・貸出 / アクセスランキング（表紙つき）・所蔵と状態・貸出履歴（LMS と同じ学籍番号・パスワードでログイン、統合認証は使いません。押すとその本を表示）・電子図書館へのリンク。予約・延長は OPAC の Web ページで。
+- **Android アプリ**（1.0、Android 8.0 以上）：iOS 版と同じ機能。APK を開いて「提供元不明のアプリ」を許可してインストール。新しい版は上書きインストールできます。
